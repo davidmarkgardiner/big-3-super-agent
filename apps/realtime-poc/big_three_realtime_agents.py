@@ -1946,7 +1946,8 @@ class OpenAIRealtimeVoiceAgent:
                     for name, data in agents.items()
                 ],
             ]
-            base_prompt = f"{base_prompt}\n\n{'\n'.join(roster_lines)}"
+            joined_roster = '\n'.join(roster_lines)
+            base_prompt = f"{base_prompt}\n\n{joined_roster}"
 
         return base_prompt
 

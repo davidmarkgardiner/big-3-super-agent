@@ -1,4 +1,10 @@
----
+  curl -X POST http://localho
+  st:4444/api/v1/news/fetch \
+    -H "Content-Type: 
+  application/json" \
+    -d '{"category": 
+  "technology", "page_size": 
+  10}'---
 model: claude-sonnet-4-5-20250929
 description: System prompt for the realtime super agent orchestrator
 ---

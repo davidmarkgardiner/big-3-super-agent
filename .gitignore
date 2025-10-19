@@ -236,3 +236,9 @@ output_screenshots/
 
 adws/
 .env.ready
+
+# Credentials and secrets
+apps/content-gen/backend/credentials/
+**/credentials/*.json
+youtube_credentials.json
+youtube_token.json
